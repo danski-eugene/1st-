@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product preview card component</title>
+    <link rel="stylesheet" href="./1st style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat|Fraunces"
+    />
+    <link rel="icon" type="image/x-icon" href="./favicon-32x32.png" />
+    <style>
+      .perf {
+        font-family: Montserrat;
+      }
+      .bold {
+        font-family: Fraunces;
+      }
+      button {
+        font-family: Montserrat;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./image-product-desktop.jpg" alt="" />
+      <div class="content">
+        <header>
+          <p class="perf">P E R F U M E</p>
+          <h1 class="bold">Gabrielle Essence Eau De Parfum</h1>
+        </header>
+        <main>
+          <p class="perf">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfume-Creator for the House of CHANNEL.
+          </p>
+          <div class="bold">
+            <span id="current"><b>&dollar;149.99</b></span>
+            <span id="previous"><del>&dollar;166.99</del></span>
+          </div>
+          <div class="button">
+            <button>&#x1F6D2; Add to cart</button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
